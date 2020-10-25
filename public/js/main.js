@@ -15,7 +15,7 @@ const usernameBtn = get(".username-register-btn");
 const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
 const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
 const BOT_NAME = "Friday";
-const ENDPOINT = "http://localhost:3000";
+const ENDPOINT = "https://furahi.herokuapp.com";
 
 const formatDate = (date) => {
   const h = "0" + date.getHours();
