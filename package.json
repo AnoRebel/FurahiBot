@@ -1,0 +1,21 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dotenv-safe": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "ibm-watson": "^5.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
