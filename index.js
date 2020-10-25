@@ -48,12 +48,13 @@ app.get("/", (req, res) => {
     console.log("We rolling");
   } else {
     assistant
-      .createSession({
-        assistantId: ASSISTANT_ID,
-      })
-      .then((res) => {
-        SESSION_ID = res.result.session_id;
-        console.log(SESSION_ID);
+    .createSession({
+      assistantId: ASSISTANT_ID,
+    })
+    .then((res) => {
+      SESSION_ID = res.result.session_id;
+      // console.log(SESSION_ID);
+      console.log("We rolling");
       })
       .catch((err) => {
         console.log(err);
